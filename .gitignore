@@ -1,0 +1,12 @@
+# Python 编译文件
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境
+venv/
+env/
+
+# 测试报告
+.pytest_cache/
+coverage/
