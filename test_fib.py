@@ -14,7 +14,7 @@ def test_fib_invalid():
     with pytest.raises(ValueError):
         fib(0)  # 小于 1
     with pytest.raises(ValueError):
-        fib(-3) # 负数
+        fib(-3) # 负数1
     with pytest.raises(ValueError):
         fib(3.5) # 非整数
         
