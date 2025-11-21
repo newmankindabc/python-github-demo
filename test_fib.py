@@ -17,3 +17,8 @@ def test_fib_invalid():
         fib(-3) # 负数
     with pytest.raises(ValueError):
         fib(3.5) # 非整数
+        
+def test_fib_batch():
+    """测试批量生成功能"""
+    assert fib_batch(3) == [1, 1, 2]
+    assert fib_batch(5) == [1, 1, 2, 3, 5]
